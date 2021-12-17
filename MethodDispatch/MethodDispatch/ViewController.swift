@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: - Initialization
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
+        let human = Human()
+        human.doSomething() // direct
+
+        let cat = Cat(some: "eat")
+        cat.printState() // direct
+    }
 
 }
 
