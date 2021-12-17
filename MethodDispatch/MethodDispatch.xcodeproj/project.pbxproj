@@ -16,6 +16,7 @@
 		455CB0AC276C8F3C0012BA56 /* StaticDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0AB276C8F3C0012BA56 /* StaticDispatch.swift */; };
 		455CB0B2276C930F0012BA56 /* VirtualTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0B1276C930F0012BA56 /* VirtualTable.swift */; };
 		455CB0B9276C95AA0012BA56 /* WitnessTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0B8276C95AA0012BA56 /* WitnessTable.swift */; };
+		455CB0C0276C97D40012BA56 /* NSObjectDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0BF276C97D40012BA56 /* NSObjectDispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		455CB0AB276C8F3C0012BA56 /* StaticDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDispatch.swift; sourceTree = "<group>"; };
 		455CB0B1276C930F0012BA56 /* VirtualTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTable.swift; sourceTree = "<group>"; };
 		455CB0B8276C95AA0012BA56 /* WitnessTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitnessTable.swift; sourceTree = "<group>"; };
+		455CB0BF276C97D40012BA56 /* NSObjectDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectDispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		455CB093276C8DCB0012BA56 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				455CB0BE276C97BE0012BA56 /* NSObjectDispatch */,
 				455CB0B7276C95990012BA56 /* WitnessTable */,
 				455CB0B0276C92740012BA56 /* VirtualTable */,
 				455CB0AA276C8F260012BA56 /* StaticDispatch */,
@@ -98,6 +101,14 @@
 				455CB0B8276C95AA0012BA56 /* WitnessTable.swift */,
 			);
 			path = WitnessTable;
+			sourceTree = "<group>";
+		};
+		455CB0BE276C97BE0012BA56 /* NSObjectDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				455CB0BF276C97D40012BA56 /* NSObjectDispatch.swift */,
+			);
+			path = NSObjectDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				455CB0B2276C930F0012BA56 /* VirtualTable.swift in Sources */,
+				455CB0C0276C97D40012BA56 /* NSObjectDispatch.swift in Sources */,
 				455CB099276C8DCB0012BA56 /* ViewController.swift in Sources */,
 				455CB0B9276C95AA0012BA56 /* WitnessTable.swift in Sources */,
 				455CB095276C8DCB0012BA56 /* AppDelegate.swift in Sources */,

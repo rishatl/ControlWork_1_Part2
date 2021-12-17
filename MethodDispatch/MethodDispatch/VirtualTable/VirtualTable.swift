@@ -7,9 +7,17 @@
 
 import Foundation
 
-class Shark: NSObject {
-    @objc func hungry() {
-        print("I'm hungry")
+class Line {
+    func someFunction() {}
+}
+
+class Protractor: Line {
+    override func someFunction() {
+        print("I'm do something")
+    }
+
+    func newFunction() {
+        print("New implementation")
     }
 }
 

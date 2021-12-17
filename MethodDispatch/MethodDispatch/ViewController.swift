@@ -20,8 +20,8 @@ class ViewController: UIViewController {
         let cat = Cat(some: "eat")
         cat.printState() // direct
 
-        let shark = Shark()
-        shark.hungry() // virtual
+        let protractor = Protractor()
+        protractor.someFunction() // virtual
         
         let bigBen = BigBen()
         bigBen.stand() // virtual
@@ -31,6 +31,10 @@ class ViewController: UIViewController {
 
         let whiteSugar: Sugar = WhiteSugar()
         whiteSugar.color() // witness
+
+        let shark = Shark()
+        shark.swim() // message
+        shark.hungry() // direct
     }
 
 }
