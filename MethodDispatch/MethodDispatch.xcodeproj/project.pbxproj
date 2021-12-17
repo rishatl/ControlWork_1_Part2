@@ -15,6 +15,7 @@
 		455CB0A1276C8DD70012BA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455CB09F276C8DD70012BA56 /* LaunchScreen.storyboard */; };
 		455CB0AC276C8F3C0012BA56 /* StaticDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0AB276C8F3C0012BA56 /* StaticDispatch.swift */; };
 		455CB0B2276C930F0012BA56 /* VirtualTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0B1276C930F0012BA56 /* VirtualTable.swift */; };
+		455CB0B9276C95AA0012BA56 /* WitnessTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CB0B8276C95AA0012BA56 /* WitnessTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		455CB0A2276C8DD70012BA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455CB0AB276C8F3C0012BA56 /* StaticDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDispatch.swift; sourceTree = "<group>"; };
 		455CB0B1276C930F0012BA56 /* VirtualTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTable.swift; sourceTree = "<group>"; };
+		455CB0B8276C95AA0012BA56 /* WitnessTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitnessTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		455CB093276C8DCB0012BA56 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				455CB0B7276C95990012BA56 /* WitnessTable */,
 				455CB0B0276C92740012BA56 /* VirtualTable */,
 				455CB0AA276C8F260012BA56 /* StaticDispatch */,
 				455CB094276C8DCB0012BA56 /* AppDelegate.swift */,
@@ -87,6 +90,14 @@
 				455CB0B1276C930F0012BA56 /* VirtualTable.swift */,
 			);
 			path = VirtualTable;
+			sourceTree = "<group>";
+		};
+		455CB0B7276C95990012BA56 /* WitnessTable */ = {
+			isa = PBXGroup;
+			children = (
+				455CB0B8276C95AA0012BA56 /* WitnessTable.swift */,
+			);
+			path = WitnessTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				455CB0B2276C930F0012BA56 /* VirtualTable.swift in Sources */,
 				455CB099276C8DCB0012BA56 /* ViewController.swift in Sources */,
+				455CB0B9276C95AA0012BA56 /* WitnessTable.swift in Sources */,
 				455CB095276C8DCB0012BA56 /* AppDelegate.swift in Sources */,
 				455CB097276C8DCB0012BA56 /* SceneDelegate.swift in Sources */,
 				455CB0AC276C8F3C0012BA56 /* StaticDispatch.swift in Sources */,
