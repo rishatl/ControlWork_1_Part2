@@ -19,6 +19,12 @@ class ViewController: UIViewController {
 
         let cat = Cat(some: "eat")
         cat.printState() // direct
+
+        let shark = Shark()
+        shark.hungry() // virtual
+        
+        let bigBen = BigBen()
+        bigBen.stand() // virtual
     }
 
 }
