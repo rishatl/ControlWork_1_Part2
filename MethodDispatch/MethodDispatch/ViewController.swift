@@ -25,6 +25,12 @@ class ViewController: UIViewController {
         
         let bigBen = BigBen()
         bigBen.stand() // virtual
+
+        let caneSugar: Sugar = CaneSugar()
+        caneSugar.color() // witness
+
+        let whiteSugar: Sugar = WhiteSugar()
+        whiteSugar.color() // witness
     }
 
 }
